@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - Foodgo</title>
+    <link rel="stylesheet" href="../../assets/css/product.css">
+</head>
+<body>
+    <div class="container">
+        <div class="product-details">
+            <div class="back-button">
+                <button onclick="window.location.href='../Menu/MenuBurger.html'">
+                    <img src="../../assets/images/back.png" alt="Back">
+                </button>
+            </div>
+
+            <div class="product-image">
+                <img src="../../assets/images/burger1.png" alt="Cheeseburger">
+            </div>
+            
+            <div class="product-content">
+                <div class="rating-price">
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="rating-value">4.9</span>
+                    </div>
+                    <div class="price">$15</div>
+                </div>
+                
+                <h2 class="product-title">Cheeseburger Wendy's Burger</h2>
+                
+                <p class="product-description">
+                    The Cheeseburger Wendy's Burger is a classic fast 
+                    food burger that packs a punch of flavor in every bite. 
+                    Made with a juicy beef patty cooked to perfection, it's 
+                    topped with melted American cheese, crispy lettuce, 
+                    ripe tomato, and crunchy pickles.
+                </p>
+
+                <div class="quantity-selector">
+                    <button class="quantity-btn minus">-</button>
+                    <span class="quantity">1</span>
+                    <button class="quantity-btn plus">+</button>
+                </div>
+            </div>
+
+            <div class="fixed-buttons">
+                <button class="add-to-cart">ADD TO CART</button>
+                <button class="order-now">ORDER NOW</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="notification" id="addToCartNotification">
+        <img src="../../assets/images/cart2.png" alt="Success">
+        <span>Added to cart successfully!</span>
+    </div>
+
+    <script src="../../script.js"></script>
+</body>
+</html>
